@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resolve Obra — Seja um Profissional Fundador</title>
+<meta name="description" content="Lista de espera dos Profissionais Fundadores da Resolve Obra em Curitiba e Região. Vagas limitadas e por qualificação. Mais clientes. Menos erros." />
+
+<!-- ============================================================
+     CONFIGURAÇÃO RÁPIDA (edite só estas duas linhas)
+     1) FORMSPREE_ENDPOINT: cole aqui o endpoint do Formspree
+        (crie grátis em formspree.io). Enquanto estiver "COLE_AQUI",
+        o formulário envia os dados pelo WhatsApp automaticamente.
+     2) WHATSAPP_NUMERO: seu número com DDI+DDD, só dígitos.
+     ============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+<style>
+:root{
+  --blue-900:#103a61; --blue-800:#154a7d; --blue-700:#1b5891; --blue-600:#2370b0;
+  --blue-300:#8cc3ec; --blue-100:#e3f0fa; --blue-50:#f2f8fd;
+  --orange-600:#e07a06; --orange-500:#f2870c; --orange-400:#f7941e; --orange-50:#fef6ec;
+  --ink-900:#15293a; --ink-700:#2b4257; --ink-500:#5b7185; --ink-300:#b6c4d0;
+  --ink-150:#e3eaf0; --ink-50:#f4f7fa; --white:#fff; --green-500:#2e9e5b;
+  --fd:'Nunito',system-ui,sans-serif; --fb:'Plus Jakarta Sans',system-ui,sans-serif;
+  --fm:'IBM Plex Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fb);color:var(--ink-700);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--fd);color:var(--ink-900);line-height:1.12;letter-spacing:-.02em}
+a{color:inherit}
+.accent{color:var(--orange-500)}
+.blue{color:var(--blue-700)}
+.wordmark{font-family:var(--fd);font-weight:900;letter-spacing:-.03em}
+.wordmark .o{color:var(--orange-500)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--orange-500);color:#fff;font-family:var(--fb);font-weight:700;font-size:18px;border:none;border-radius:14px;padding:18px 30px;cursor:pointer;text-decoration:none;transition:background .15s}
+.btn:hover{background:var(--orange-600)}
+.btn-block{width:100%;justify-content:center}
+.eyebrow{font-family:var(--fb);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--orange-400)}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:50;background:rgba(16,58,97,.96);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hbar{display:flex;align-items:center;justify-content:space-between;height:64px}
+.hlogo{display:flex;align-items:center;gap:10px}
+.hlogo .wordmark{font-size:22px;color:#fff}
+.hbtn{background:var(--orange-500);color:#fff;font-weight:700;font-size:14px;padding:10px 18px;border-radius:10px;text-decoration:none}
+
+/* HERO */
+.hero{background:radial-gradient(120% 90% at 50% 0%,#1c5e9b 0%,var(--blue-800) 45%,var(--blue-900) 100%);color:#fff;position:relative;overflow:hidden;padding:60px 0 80px;text-align:center}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(55% 40% at 50% 118%,rgba(242,135,12,.28),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(242,135,12,.16);border:1px solid rgba(247,148,30,.45);color:#ffd9a8;font-weight:600;font-size:14px;padding:8px 16px;border-radius:999px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--orange-400);box-shadow:0 0 0 4px rgba(247,148,30,.25)}
+.hero h1{color:#fff;font-size:clamp(34px,6vw,60px);font-weight:900;margin:22px auto 0;max-width:14ch}
+.hero h1 b{color:var(--orange-400)}
+.hero p.sub{font-size:clamp(18px,2.4vw,22px);color:var(--blue-300);max-width:620px;margin:20px auto 0;line-height:1.55}
+.hero .cta-row{margin-top:34px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.hero .micro{color:#7fb0d8;font-size:14px}
+.pin{width:64px;height:auto;filter:drop-shadow(0 12px 26px rgba(0,0,0,.4));margin-bottom:6px}
+
+/* STRIP */
+.strip{background:var(--orange-500);color:#fff;font-weight:700;text-align:center;padding:14px 24px;font-size:15px;letter-spacing:.01em}
+
+/* SECTIONS */
+section.s{padding:80px 0}
+.shead{text-align:center;max-width:680px;margin:0 auto 48px}
+.shead h2{font-size:clamp(28px,4vw,42px);font-weight:900;margin-top:12px}
+.shead p{color:var(--ink-500);margin-top:14px;font-size:19px}
+
+/* BENEFITS GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:var(--white);border:1px solid var(--ink-150);border-radius:18px;padding:28px}
+.card .ic{width:50px;height:50px;border-radius:13px;background:var(--blue-50);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.card .ic svg{width:26px;height:26px;stroke:var(--blue-700);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:20px;font-weight:800}
+.card p{margin-top:8px;color:var(--ink-500);font-size:16px}
+.card.hot{background:var(--orange-50);border-color:#fdd29a}
+.card.hot .ic{background:#fff}
+.card.hot .ic svg{stroke:var(--orange-500)}
+
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;counter-reset:s}
+.step{position:relative;background:var(--blue-50);border-radius:18px;padding:30px 26px}
+.step .n{font-family:var(--fm);font-weight:600;font-size:14px;color:var(--orange-500);background:#fff;border:1px solid #fdd29a;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.step h3{font-size:19px;font-weight:800}
+.step p{margin-top:6px;color:var(--ink-500);font-size:15px}
+
+/* CATEGORIES */
+.cats{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.chip{background:#fff;border:1px solid var(--ink-150);border-radius:999px;padding:12px 22px;font-weight:600;color:var(--ink-700);font-size:16px}
+.chip.on{background:var(--blue-700);color:#fff;border-color:var(--blue-700)}
+
+/* FORM */
+.formsec{background:linear-gradient(180deg,var(--blue-50),#fff)}
+.formcard{max-width:680px;margin:0 auto;background:#fff;border:1px solid var(--ink-150);border-radius:24px;padding:40px;box-shadow:0 18px 40px rgba(21,41,58,.10)}
+.formcard h2{font-size:clamp(26px,3.5vw,34px);font-weight:900;text-align:center}
+.formcard .lede{text-align:center;color:var(--ink-500);margin:12px auto 30px;max-width:48ch}
+.field{margin-bottom:18px}
+.field label{display:block;font-weight:600;font-size:15px;color:var(--ink-900);margin-bottom:7px}
+.field label .req{color:var(--orange-500)}
+.field input,.field select,.field textarea{width:100%;font-family:var(--fb);font-size:16px;color:var(--ink-900);background:var(--ink-50);border:1.5px solid var(--ink-150);border-radius:12px;padding:14px 16px;outline:none;transition:border-color .15s,background .15s}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue-600);background:#fff}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.check{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--ink-500);margin:6px 0 22px}
+.check input{width:20px;height:20px;margin-top:2px;flex-shrink:0;accent-color:var(--orange-500)}
+.hint{font-size:13px;color:var(--ink-300);margin-top:6px}
+.success{display:none;text-align:center;padding:20px 0}
+.success .big{width:80px;height:80px;border-radius:50%;background:var(--green-500);display:flex;align-items:center;justify-content:center;margin:0 auto 20px}
+.success .big svg{width:42px;height:42px;stroke:#fff;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.success h2{font-size:30px;font-weight:900}
+.success p{color:var(--ink-500);margin:12px auto 0;max-width:42ch}
+
+/* FAQ */
+.faq{max-width:760px;margin:0 auto}
+.qa{border-bottom:1px solid var(--ink-150);padding:22px 0}
+.qa h3{font-size:18px;font-weight:800}
+.qa p{margin-top:8px;color:var(--ink-500);font-size:16px}
+
+/* FOOTER */
+footer{background:var(--blue-900);color:#7fb0d8;text-align:center;padding:48px 24px;font-size:14px}
+footer .wordmark{font-size:24px;color:#fff;display:inline-block;margin-bottom:8px}
+footer a{color:var(--blue-300);text-decoration:none}
+
+@media(max-width:560px){.row2{grid-template-columns:1fr}.formcard{padding:28px 20px}section.s{padding:56px 0}}
+</style>
+</head>
+<body>
+
+<!-- pin reutilizável -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="pin">
+  <path d="M0 -150 C 82 -150 150 -86 150 -8 C 150 78 60 150 0 215 C -60 150 -150 78 -150 -8 C -150 -86 -82 -150 0 -150 Z" fill="#f2870c"/>
+  <circle cx="0" cy="-8" r="58" fill="#ffffff"/>
+  <path d="M-26 -34 L 26 18 M 18 -34 L -34 26" stroke="#1b5891" stroke-width="16" stroke-linecap="round"/>
+</g></defs></svg>
+
+<header>
+  <div class="wrap hbar">
+    <div class="hlogo">
+      <img src="logo-mark.png" alt="Resolve Obra" width="34" height="42" style="display:block" />
+      <span class="wordmark">Resolve<span class="o">Obra</span></span>
+    </div>
+    <a href="#cadastro" class="hbtn">Quero ser Fundador</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <img class="pin" src="logo-mark.png" alt="Resolve Obra" />
+    <div><span class="badge"><span class="dot"></span> Vagas limitadas · Curitiba e Região Metropolitana</span></div>
+    <h1>Seja um <b>Profissional Fundador</b> da Resolve Obra</h1>
+    <p class="sub">Estamos selecionando os primeiros profissionais de Curitiba para a lista de espera de qualificação. Mais clientes na sua região. Menos erros. Sem ser tratado como anúncio.</p>
+    <div class="cta-row">
+      <a href="#cadastro" class="btn">Entrar na lista de espera →</a>
+      <span class="micro">Leva menos de 1 minuto · Análise por ordem de inscrição</span>
+    </div>
+  </div>
+</section>
+
+<div class="strip">Da foto à solução. Você recebe demanda qualificada — não anúncio vazio.</div>
+
+<!-- BENEFÍCIOS -->
+<section class="s">
+  <div class="wrap">
+    <div class="shead">
+      <span class="eyebrow">Por que entrar agora</span>
+      <h2>O que ganha quem entra como Fundador</h2>
+      <p>Os primeiros profissionais qualificados constroem a reputação da praça — e largam na frente.</p>
+    </div>
+    <div class="grid">
+      <div class="card hot">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6-6.3 4.6L8 13.8 2 9.4h7.6z"/></svg></div>
+        <h3>Selo Fundador</h3>
+        <p>Destaque permanente no perfil dentro do app — o primeiro grupo a provar valor na cidade.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div>
+        <h3>Prioridade nos leads</h3>
+        <p>Demanda qualificada de clientes perto de você, com prioridade na largada da operação.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>Condição especial de lançamento</h3>
+        <p>Quem entra como Fundador participa em condições exclusivas durante a fase de lançamento.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+        <h3>Reputação real</h3>
+        <p>Avaliações verificadas constroem sua autoridade — não mais um contato perdido no WhatsApp.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/><path d="M3 9l2 2"/></svg></div>
+        <h3>Diagnóstico por IA</h3>
+        <p>O cliente já chega com o problema identificado por foto. Menos retrabalho, orçamento certo.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <h3>Só na sua região</h3>
+        <p>Geolocalização conecta você ao cliente certo dentro do seu raio de atuação em Curitiba e RMC.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA A QUALIFICAÇÃO -->
+<section class="s" style="background:var(--ink-50)">
+  <div class="wrap">
+    <div class="shead">
+      <span class="eyebrow">Como funciona</span>
+      <h2>É lista de espera com qualificação</h2>
+      <p>Não é cadastro automático. Selecionamos profissionais de confiança, um a um, para garantir a qualidade da praça.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><h3>Você se inscreve</h3><p>Preenche o formulário abaixo com sua profissão e região de atuação. Leva menos de 1 minuto.</p></div>
+      <div class="step"><div class="n">02</div><h3>A gente analisa</h3><p>Conferimos experiência e referências. A análise segue a ordem de inscrição — quem entra antes, avança antes.</p></div>
+      <div class="step"><div class="n">03</div><h3>Convite e onboarding</h3><p>Profissionais aprovados recebem o convite para ativar o perfil como Fundador antes da abertura ao público.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIAS -->
+<section class="s">
+  <div class="wrap">
+    <div class="shead">
+      <span class="eyebrow">Quem pode se candidatar</span>
+      <h2>Profissionais da construção em Curitiba e RMC</h2>
+      <p>Estamos começando pelas categorias de maior demanda. Não viu a sua? Inscreva-se mesmo assim — abrimos novas conforme a procura.</p>
+    </div>
+    <div class="cats">
+      <span class="chip on">Pedreiro</span>
+      <span class="chip on">Eletricista</span>
+      <span class="chip on">Encanador</span>
+      <span class="chip on">Pintor</span>
+      <span class="chip">Marceneiro</span>
+      <span class="chip">Azulejista</span>
+      <span class="chip">Vidraceiro</span>
+      <span class="chip">Serralheiro</span>
+      <span class="chip">Ar-condicionado</span>
+    </div>
+  </div>
+</section>
+
+<!-- FORMULÁRIO -->
+<section class="s formsec" id="cadastro">
+  <div class="wrap">
+    <div class="formcard">
+      <form id="founderForm" novalidate>
+        <h2>Entre na lista dos <span class="accent">Fundadores</span></h2>
+        <p class="lede">Vagas limitadas por categoria e região. Preencha e garanta sua análise prioritária.</p>
+
+        <div class="field">
+          <label>Nome completo <span class="req">*</span></label>
+          <input name="nome" type="text" required placeholder="Seu nome" />
+        </div>
+
+        <div class="row2">
+          <div class="field">
+            <label>WhatsApp <span class="req">*</span></label>
+            <input name="whatsapp" type="tel" required placeholder="(41) 9 9999-9999" />
+          </div>
+          <div class="field">
+            <label>E-mail</label>
+            <input name="email" type="email" placeholder="voce@email.com" />
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="field">
+            <label>Sua profissão <span class="req">*</span></label>
+            <select name="profissao" required>
+              <option value="" selected disabled>Selecione…</option>
+              <option>Pedreiro</option><option>Eletricista</option><option>Encanador</option>
+              <option>Pintor</option><option>Marceneiro</option><option>Azulejista</option>
+              <option>Vidraceiro</option><option>Serralheiro</option>
+              <option>Ar-condicionado</option><option>Outra</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Anos de experiência <span class="req">*</span></label>
+            <select name="experiencia" required>
+              <option value="" selected disabled>Selecione…</option>
+              <option>Menos de 1 ano</option><option>1 a 3 anos</option>
+              <option>3 a 5 anos</option><option>5 a 10 anos</option><option>Mais de 10 anos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Cidade / bairro onde atua <span class="req">*</span></label>
+          <input name="local" type="text" required placeholder="Ex.: Curitiba — Água Verde, ou São José dos Pinhais" />
+          <div class="hint">Atendemos Curitiba-PR e Região Metropolitana.</div>
+        </div>
+
+        <div class="field">
+          <label>CPF ou CNPJ <span style="color:var(--ink-300);font-weight:500">(opcional, agiliza a qualificação)</span></label>
+          <input name="documento" type="text" placeholder="Usado só para verificação do perfil" />
+        </div>
+
+        <label class="check">
+          <input type="checkbox" name="aceite" required />
+          <span>Autorizo a Resolve Obra a entrar em contato pelo WhatsApp e e-mail sobre minha qualificação e o lançamento.</span>
+        </label>
+
+        <button type="submit" class="btn btn-block" id="submitBtn">Garantir minha vaga de Fundador →</button>
+        <div class="hint" style="text-align:center;margin-top:14px">Sem custo para entrar na lista · Seus dados ficam protegidos</div>
+      </form>
+
+      <div class="success" id="successBox">
+        <div class="big"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h2>Inscrição recebida! 🎉</h2>
+        <p>Você entrou na lista de espera dos Profissionais Fundadores. Vamos analisar seu perfil e chamar você no WhatsApp. Fica de olho!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="s">
+  <div class="wrap faq">
+    <div class="shead"><span class="eyebrow">Dúvidas rápidas</span><h2>Perguntas frequentes</h2></div>
+    <div class="qa"><h3>Entrar na lista custa alguma coisa?</h3><p>Não. A inscrição na lista de espera dos Fundadores é gratuita. Condições de uso da plataforma são apresentadas no convite, com condição especial de lançamento.</p></div>
+    <div class="qa"><h3>Todo mundo que se inscreve é aprovado?</h3><p>Não. É uma lista por qualificação — analisamos experiência e referências para manter a qualidade da praça. Por isso o selo Fundador tem valor.</p></div>
+    <div class="qa"><h3>Atende só Curitiba?</h3><p>Começamos por Curitiba-PR e Região Metropolitana (RMC). Se você atua na região, pode se inscrever.</p></div>
+    <div class="qa"><h3>Quando começa?</h3><p>Estamos na largada. Quem entra agora é analisado primeiro e ativa o perfil antes da abertura ao público.</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wordmark">Resolve<span class="o">Obra</span></div>
+  <div>A solução certa pra sua obra.</div>
+  <div style="margin-top:10px">www.resolveobra.com.br · contato@resolveobra.com.br · @resolveobra</div>
+</footer>
+
+<script>
+// ====== CONFIGURE AQUI ======
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwTHAI95Sa-yLVYrUQVoL9h8jDHPP3g-ZlaJdcxUSwXbd7SOdPPapjYXvHMSHk4feiGAg/exec"; // URL do App da Web do Apps Script (termina em /exec)
+const FORMSPREE_ENDPOINT = "COLE_AQUI"; // alternativa: https://formspree.io/f/xxxxxxx
+const WHATSAPP_NUMERO = "55419XXXXXXXX"; // backup: DDI+DDD+número, só dígitos
+// ============================
+
+const form = document.getElementById('founderForm');
+const successBox = document.getElementById('successBox');
+const submitBtn = document.getElementById('submitBtn');
+
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  if(!form.checkValidity()){ form.reportValidity(); return; }
+  submitBtn.disabled = true; submitBtn.textContent = 'Enviando…';
+
+  const data = Object.fromEntries(new FormData(form).entries());
+
+  let enviado = false;
+
+  // 1ª opção: Google Sheets (Apps Script). Usa no-cors: salva mas não lê resposta.
+  if(GOOGLE_SCRIPT_URL && GOOGLE_SCRIPT_URL !== "COLE_AQUI"){
+    try{
+      await fetch(GOOGLE_SCRIPT_URL,{method:'POST',mode:'no-cors',body:new FormData(form)});
+      enviado = true;
+    }catch(_){ enviado = false; }
+  }
+
+  // 2ª opção: Formspree
+  if(!enviado && FORMSPREE_ENDPOINT && FORMSPREE_ENDPOINT !== "COLE_AQUI"){
+    try{
+      const r = await fetch(FORMSPREE_ENDPOINT,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)});
+      enviado = r.ok;
+    }catch(_){ enviado = false; }
+  }
+
+  // Fallback / confirmação via WhatsApp
+  if(!enviado){
+    const msg = encodeURIComponent(
+      `*Profissional Fundador — Resolve Obra*\n`+
+      `Nome: ${data.nome}\n`+
+      `WhatsApp: ${data.whatsapp}\n`+
+      `E-mail: ${data.email||'-'}\n`+
+      `Profissão: ${data.profissao}\n`+
+      `Experiência: ${data.experiencia}\n`+
+      `Local: ${data.local}\n`+
+      `Documento: ${data.documento||'-'}`
+    );
+    window.open(`https://wa.me/${WHATSAPP_NUMERO}?text=${msg}`,'_blank');
+  }
+
+  form.style.display = 'none';
+  successBox.style.display = 'block';
+  successBox.scrollIntoView({behavior:'smooth',block:'center'});
+});
+</script>
+</body>
+</html>
